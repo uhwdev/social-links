@@ -1,0 +1,130 @@
+/* Reset Básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Adicionei box-sizing para um controle de layout mais intuitivo */
+}
+
+/* Estilos do Corpo */
+body {
+  background: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
+  color: white; /* Define a cor padrão do texto para branco */
+  min-height: 100vh; /* Garante que o body ocupe a altura total da viewport */
+  display: flex; /* Habilita Flexbox no body */
+  flex-direction: column; /* Itens empilhados verticalmente */
+  justify-content: center; /* Centraliza o conteúdo principal verticalmente */
+  align-items: center; /* Centraliza o conteúdo principal horizontalmente */
+  padding: 20px; /* Adiciona um padding geral para evitar que o conteúdo cole nas bordas da tela */
+}
+
+/* Container Principal */
+.container-main {
+  /* Não precisa de display: flex; ou justify-content: center; aqui se o body já faz a centralização */
+  /* Remove margin-top, pois o body já centraliza verticalmente */
+}
+
+/* Seção Principal (Card do Perfil) */
+.section-main {
+  background: hsl(0, 0%, 12%);
+  max-width: 380px; /* Largura máxima, melhor para responsividade */
+  width: 100%; /* Ocupa 100% da largura disponível até max-width */
+  /* height: auto;  A altura se ajustará automaticamente ao conteúdo */
+  border-radius: 10px;
+  padding: 20px; /* Adiciona padding interno ao card */
+  display: flex; /* Para organizar o perfil e os links */
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Centraliza o texto dentro do card */
+}
+
+/* Imagem de Perfil */
+#imagem img {
+  margin-top: 20px; /* Espaçamento superior */
+  border-radius: 50%; /* Garante um círculo perfeito para a imagem */
+  width: 100px; /* Define um tamanho fixo para a imagem */
+  height: 100px; /* Define um tamanho fixo para a imagem */
+  object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+  margin-bottom: 35px; /* Espaçamento inferior */
+}
+
+/* Informações do Perfil */
+.info-perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Ocupa a largura total para centralizar o texto */
+}
+
+.info-perfil h1 {
+  font-size: 1.8em; /* Tamanho do título */
+  margin-bottom: 8px; /* Espaçamento entre o nome e a localização */
+}
+
+.info-perfil p {
+  color: hsl(75, 94%, 57%); /* Cor primária */
+  font-size: 0.9em; /* Tamanho da fonte */
+  margin-top: 0; /* Remove margin-top redundante */
+}
+
+/* Último parágrafo (descrição) */
+.info-perfil p:last-child {
+  color: hsl(0, 0%, 65%); /* Cor secundária */
+  margin-top: 25px; /* Espaçamento superior */
+  font-size: 0.9em; /* Tamanho da fonte */
+  font-weight: 600;
+}
+
+/* Seção de Links Sociais */
+.social-main {
+  margin-top: 20px; /* Espaçamento superior */
+  width: 100%; /* Ocupa a largura total para os links */
+}
+
+.list-main {
+  list-style: none; /* Remove marcadores da lista */
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Espaçamento entre os itens da lista */
+  padding: 0; /* Remove padding padrão da lista */
+}
+
+.list-main li {
+  width: 100%; /* Garante que o item da lista ocupe a largura total */
+}
+
+.list-main a {
+  display: block; /* Transforma o link em um bloco para ocupar toda a largura do <li> */
+  padding: 15px; /* Padding interno para o "botão" */
+  border-radius: 10px;
+  background: hsl(0, 0%, 20%);
+  color: white;
+  text-decoration: none; /* Remove sublinhado */
+  font-weight: 600; /* Negrito para os links */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave para o hover */
+}
+
+.list-main a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+}
+
+/* Rodapé de Atribuição */
+.attribution {
+  margin-top: 20px; /* Espaçamento superior */
+  padding: 10px; /* Padding para a área de atribuição */
+  font-size: 0.8em; /* Tamanho da fonte menor */
+  color: hsl(0, 0%, 65%); /* Cor para o texto de atribuição */
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(0, 0%, 65%); /* Cor dos links no rodapé */
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: hsl(75, 94%, 57%); /* Cor no hover */
+  text-decoration: underline; /* Adiciona sublinhado no hover */
+}
