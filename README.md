@@ -23,7 +23,7 @@ Esta é uma solução para o desafio [Social links profile challenge on Frontend
 
 ### O Desafio
 
-O desafio consistia em construir uma página de perfil de links sociais e fazê-la parecer o mais próximo possível do design fornecido. Os usuários deveriam ser capazes de ver os estados de `hover` para todos os elementos interativos na página. Acesse o projeto clicando <a href="https://uhwdev.github.io/social-links.github.io/">aqui</a>.</p>
+O desafio consistia em construir uma página de perfil de links sociais e fazê-la parecer o mais próximo possível do design fornecido. Os usuários deveriam ser capazes de ver os estados de `hover` para todos os elementos interativos na página.
 
 ### Screenshot
 
@@ -33,8 +33,8 @@ Aqui está um screenshot do meu projeto finalizado:
 
 ### Links
 
-- **URL da Solução:** [Adicione o link da sua solução no Frontend Mentor aqui]([SEU LINK AQUI])
-- **URL do Site ao Vivo:** [Adicione o link do seu site no GitHub Pages aqui]([SEU LINK AQUI])
+- **URL da Solução:** [Adicione o link da sua solução no Frontend Mentor aqui]([https://www.frontendmentor.io/solutions/flexbox-utilizei-o-display-flex-para-realizar-o-invs-de-grid-XuFubzDGF6])
+- **URL do Site ao Vivo:** [Adicione o link do seu site no GitHub Pages aqui]([href="https://uhwdev.github.io/social-links.github.io/])
 
 ## Meu Processo
 
