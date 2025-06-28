@@ -33,8 +33,8 @@ Aqui está um screenshot do meu projeto finalizado:
 
 ### Links
 
-- **URL da Solução:** [Adicione o link da sua solução no Frontend Mentor aqui]([https://www.frontendmentor.io/solutions/flexbox-utilizei-o-display-flex-para-realizar-o-invs-de-grid-XuFubzDGF6])
-- **URL do Site ao Vivo:** [Adicione o link do seu site no GitHub Pages aqui]([href="https://uhwdev.github.io/social-links.github.io/])
+- **URL da Solução:** (https://www.frontendmentor.io/solutions/flexbox-utilizei-o-display-flex-para-realizar-o-invs-de-grid-XuFubzDGF6)
+- **URL do Site ao Vivo:** (href="https://uhwdev.github.io/social-links.github.io/)
 
 ## Meu Processo
 
