@@ -23,7 +23,7 @@ Esta é uma solução para o desafio [Social links profile challenge on Frontend
 
 ### O Desafio
 
-O desafio consistia em construir uma página de perfil de links sociais e fazê-la parecer o mais próximo possível do design fornecido. Os usuários deveriam ser capazes de ver os estados de `hover` para todos os elementos interativos na página.
+O desafio consistia em construir uma página de perfil de links sociais e fazê-la parecer o mais próximo possível do design fornecido. Os usuários deveriam ser capazes de ver os estados de `hover` para todos os elementos interativos na página. Acesse o projeto clicando <a href="https://uhwdev.github.io/social-links.github.io/">aqui</a>.</p>
 
 ### Screenshot
 
